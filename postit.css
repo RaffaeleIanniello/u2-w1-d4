@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: 20px ;
+}
+#container{
+height: 100%;
+width: 100%;
+display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+
+}
+#postit h2{
+font-size: 1.8em;
+}
+#postit p{
+    font-size: 1.2em;
+}
+#postit article{
+    font-family:'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center ;
+    box-shadow: 5px 5px 5px 5px;
+    }
+    #postit{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+    #postit article:hover{
+        transform: scale(1.2);
+        z-index: 4;
+    }
+#postit1{
+    background-color: rgb(197, 243, 145);
+transform: rotate(-10deg);
+
+
+}
+
+#postit1 :hover{
+    z-index: 1;
+}
+#postit2{
+    background-color: rgb(178, 253, 228);
+    transform: rotate(8deg);
+}
+#poatit2 :hover{
+    z-index: 2;
+}
+#postit3{
+    background-color: rgb(205, 191, 236);
+    transform: rotate(-10deg);
+}
+#postit3 :hover{
+    z-index: 4;
+}
+#postit4{
+    background-color: rgb(178, 253, 228);
+    transform: rotate(8deg);
+}
+    #postit4 :hover{
+        z-index: 5;
+    }
+
+#postit5{
+    background-color: rgb(197, 243, 145);
+    transform: rotate(-10deg);
+}
+#postit5 :hover{
+    z-index: 6;
+}
+
+#postit6{
+    background-color: rgb(205, 191, 236);
+    transform: rotate(-12deg);
+}
+#postit6 :hover{
+    z-index: 7;
+}
+
+#postit7{
+    background-color: rgb(197, 243, 145);
+    transform: rotate(-5deg);
+}
+#postit7 :hover{
+    z-index: 8;
+}
+
+#postit8{
+    background-color: rgb(178, 253, 228);
+    transform: rotate(5deg);
+}
+#postit8 :hover{
+    z-index: 10;
+}
+
+
+    
+    
